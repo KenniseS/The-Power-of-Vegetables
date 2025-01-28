@@ -1,0 +1,73 @@
+body {
+  background: #e7e4e4;
+}
+p {
+  color: black;
+  font-size: 20px;
+}
+ul{
+  font-size: 20px;
+}
+ol{
+  font-size: 20px;
+}
+
+
+a {
+ text-align: center;
+  border-color: #909e5a;
+  
+  padding: 20px;
+ 
+  color: #ffffff;
+}
+img{
+  width: 250px;
+}
+.veg{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+h1 {
+  font-weight: bold;
+    color: black; 
+    font-style: oblique;
+    text-align: center;
+    font-size: 45px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+  margin: 20px;
+}
+.recipie-card {
+  width: 250px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  text-align: center;
+  margin: 10px;
+  align-items: center;
+  flex-grow: 1;
+
+
+}
+.content {
+  padding: 10px;
+
+}
+.recipie-card p {
+  font-size: 17px;
+}
+
+
+
+.nav{
+  background-color: black
+    
+}
